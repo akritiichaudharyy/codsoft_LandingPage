@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JewelJubliee - Exquisite Jewelry Collection</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">JewelJubliee</div>
+      <button class="menu-toggle">&#9776;</button>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="hero" id="home">
+      <h1>Welcome to JewelJubliee</h1>
+      <p>Your one-stop solution for exquisite jewelry.</p>
+      <button class="cta">Shop Now</button>
+    </div>
+  </header>
+  
+  <main>
+    <section class="features" id="about">
+      <h2>Why Choose Us?</h2>
+      <div class="feature-container">
+        <div class="feature-box">
+          <h3>Customization & Personalization</h3>
+          <p>Create one-of-a-kind pieces that reflect your personality.</p>
+        </div>
+        <div class="feature-box">
+          <h3>Ethical & Sustainable</h3>
+          <p>We use ethically sourced gemstones and eco-friendly practices.</p>
+        </div>
+        <div class="feature-box">
+          <h3>Lifetime Warranty</h3>
+          <p>Guaranteed quality and durability for a lifetime.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="products" id="products">
+      <h2>Our Collection</h2>
+      <div class="product-container">
+        <div class="product-box">
+          <img src="images (1).jpeg" alt="Gold Necklace">
+          <h3>Gold Necklace</h3>
+          <p>Elegant 24-carat gold necklace with a ruby centerpiece.</p>
+        </div>
+        <div class="product-box">
+          <img src="images (2).jpeg" alt="Gold Bangles">
+          <h3>Gold Bangles</h3>
+          <p>Simple yet elegant daily-wear bangles.</p>
+        </div>
+        <div class="product-box">
+          <img src="images (3).jpeg" alt="Gold and Pearl Ring">
+          <h3>Gold & Pearl Ring</h3>
+          <p>Unique gold ring with tiny pearl embellishments.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials">
+      <h2>What Our Customers Say</h2>
+      <div class="testimonial-container">
+        <div class="testimonial">
+          <p>"JewelJubliee’s craftsmanship is unmatched! I love my custom-made ring."</p>
+          <h4>- Sophia R.</h4>
+        </div>
+        <div class="testimonial">
+          <p>"The quality and design of the bangles exceeded my expectations!"</p>
+          <h4>- James T.</h4>
+        </div>
+      </div>
+    </section>
+
+    <section class="newsletter">
+      <h2>Subscribe to Our Newsletter</h2>
+      <p>Get exclusive offers and updates on new collections.</p>
+      <form>
+        <input type="email" placeholder="Enter your email" required>
+        <button type="submit">Subscribe</button>
+      </form>
+    </section>
+  </main>
+  
+  <footer id="contact">
+    <div class="footer-container">
+      <div class="footer-info">
+        <h3>Contact Us</h3>
+        <p>Email: support@jeweljubliee.com</p>
+        <p>Phone: +123 456 7890</p>
+      </div>
+      <div class="social-links">
+        <h3>Follow Us</h3>
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+        <a href="#">Twitter</a>
+      </div>
+    </div>
+    <p>&copy; 2025 JewelJubliee. All rights reserved.</p>
+  </footer>
+
+  <script>
+    const menuToggle = document.querySelector('.menu-toggle');
+    const navLinks = document.querySelector('.nav-links');
+    menuToggle.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+  </script>
+</body>
+</html>
